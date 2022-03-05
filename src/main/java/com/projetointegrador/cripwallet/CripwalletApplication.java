@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CripwalletApplication {
 
 	public static void main(String[] args) {
-		// conflito
 		SpringApplication.run(CripwalletApplication.class, args);
 	}
 
