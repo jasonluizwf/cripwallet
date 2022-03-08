@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity
-@Table(name = 'role')
+@Table(name = "role")
 
 public class Role {
     @Id
@@ -13,7 +13,7 @@ public class Role {
 
     private String name;
 
-    @ManyToMany(mappedBy = 'roles')
+    @ManyToMany(mappedBy = "roles")
     private Set<User> users;
 
     public Long getId() {

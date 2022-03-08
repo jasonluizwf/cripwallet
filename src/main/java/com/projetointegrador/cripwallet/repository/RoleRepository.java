@@ -1,4 +1,7 @@
 package com.projetointegrador.cripwallet.repository;
 
-public class RoleRepository {
+import com.projetointegrador.cripwallet.model.Role;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RoleRepository extends JpaRepository<Role, Long>{
 }
